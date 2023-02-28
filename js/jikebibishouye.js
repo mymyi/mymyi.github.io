@@ -1,6 +1,6 @@
 if (document.querySelector('#bber-talk')) {
   var swiper = new Swiper('.swiper-container', {
-    direction: 'vertical', 
+    direction: 'vertical', // 垂直切换选项
     loop: true,
     autoplay: {
     delay: 3000,
