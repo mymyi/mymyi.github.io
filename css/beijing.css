@@ -81,7 +81,7 @@
   height: 65px; /*顶栏高度调整*/
 }
 #page-header.nav-fixed #nav {
-  top: -50px; /*顶栏调整空缺补齐*/
+  top: -80px; /*顶栏调整空缺补齐*/
 }
 
 /*右下角按钮*/
