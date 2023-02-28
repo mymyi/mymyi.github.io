@@ -84,27 +84,6 @@
   top: -50px; /*顶栏调整空缺补齐*/
 }
 
-/*个人信息美化*/
-#aside-content>.card-widget.card-info {
-  background: #fff url(https://www.eacls.top/img/info.webp) top 33% center no-repeat;
-  position: relative;
-}
-#aside-content .card-info #card-info-btn {
-  display: none;
-}
-#aside-content .card-info .author-info__name {
-  font-weight: 700;
-  color: rgb(42, 41, 41);
-}
-#aside-content .card-info .author-info__description {
-  font-weight: 600;
-  color: rgb(46, 45, 45);
-}
-.site-data > a .headline {
-  color: rgb(0 0 0 / 100%);
-}
-
-
 /*右下角按钮*/
 #rightside > div > button, #rightside > div > a {
   display: block;
