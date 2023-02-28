@@ -15,7 +15,7 @@
 
 /*调宽页脚*/
 #footer-wrap {
-  padding: 3rem 2rem; /*前者为上下边距，后者为左右边距*/
+  padding: 0.5rem 2rem; /*前者为上下边距，后者为左右边距*/
 }
 
 /*版权卡片美化*/
@@ -72,16 +72,16 @@
 
 /*顶栏美化*/
 #nav .site-page {
-  font-size: 0.79em; /*字体大小*/
-  letter-spacing: 3px; /*字体间距*/
-  font-weight: 600; /*字体粗细*/
+  font-size: 1em; /*字体大小*/
+  letter-spacing: 4px; /*字体间距*/
+  font-weight: 800; /*字体粗细*/
 }
 
 #nav {
-  height: 70px; /*顶栏高度调整*/
+  height: 65px; /*顶栏高度调整*/
 }
 #page-header.nav-fixed #nav {
-  top: -70px; /*顶栏调整空缺补齐*/
+  top: -50px; /*顶栏调整空缺补齐*/
 }
 
 /*个人信息美化*/
@@ -94,35 +94,16 @@
 }
 #aside-content .card-info .author-info__name {
   font-weight: 700;
-  color: black;
+  color: rgb(42, 41, 41);
 }
 #aside-content .card-info .author-info__description {
   font-weight: 600;
-  color: black;
+  color: rgb(46, 45, 45);
 }
 .site-data > a .headline {
   color: rgb(0 0 0 / 100%);
 }
 
-/*个人信息美化*/
-#aside-content>.card-widget.card-info {
-  background: #fff url(https://www.eacls.top/img/info.webp) top 33% center no-repeat;
-  position: relative;
-}
-#aside-content .card-info #card-info-btn {
-  display: none;
-}
-#aside-content .card-info .author-info__name {
-  font-weight: 700;
-  color: black;
-}
-#aside-content .card-info .author-info__description {
-  font-weight: 600;
-  color: black;
-}
-.site-data > a .headline {
-  color: rgb(0 0 0 / 100%);
-}
 
 /*右下角按钮*/
 #rightside > div > button, #rightside > div > a {
@@ -300,11 +281,7 @@
   background: #191919ee;
 }
 
-/* 个人信息Follow me按钮 */
-#aside-content > .card-widget.card-info > #card-info-btn {
-  background-color: #3eb8be;
-  border-radius: 8px;
-}
+
 
 /* 最近文章样式修改 */
 #aside-content .aside-list > .aside-list-item .content > time {
