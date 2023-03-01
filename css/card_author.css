@@ -1,6 +1,6 @@
 /************************************************* 个人资料卡片 *************************************************/
 #aside-content > .card-widget:first-child {
-  background: #fff url(https://s1.ax1x.com/2023/03/01/ppil8Bj.jpg) top -24% center no-repeat;
+  background: #fff url(https://s1.ax1x.com/2023/03/01/ppiDp4O.jpg) top -24% center no-repeat;
 }
 
 [data-theme=dark] #aside-content>.card-widget:first-child {
@@ -111,7 +111,7 @@ div#author-info__sayhi {
 
 .card-widget.card-info .banner-button-group .banner-button {
   padding: 20px 12px;
-  background: #3b70fc;
+  background: #6199fb;
   border-radius: 12px;
   color: #fff;
   display: flex;
@@ -136,7 +136,7 @@ div#author-info__sayhi {
 }
 
 .card-widget.card-info .banner-button-group .banner-button:hover {
-  background: #1856fb;
+  background: #67a6f3;
   color: #fff;
 }
 /************************************************* 个人资料卡片 *************************************************/
