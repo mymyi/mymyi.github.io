@@ -13,10 +13,7 @@
   border-radius: 20px;
   }
 
-/*调宽页脚*/
-#footer-wrap {
-  padding: 0.5rem 2rem; /*前者为上下边距，后者为左右边距*/
-}
+
 
 /* 版权信息 */
 /* 背景 */
@@ -42,7 +39,7 @@
   filter: blur(7px);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 300px) {
   #post .post-copyright {
     padding: 1rem 1.3rem;
   }
