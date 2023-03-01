@@ -881,3 +881,9 @@
     transform: rotate(-1turn);
   }
 }
+
+/*页脚美化*/
+#footer-wrap {
+  text-align: left;
+  background-color: #c9e6feed;
+}
