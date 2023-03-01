@@ -2,7 +2,7 @@
 
 #footer-banner {
     padding: 1rem;
-    color: #59595a;
+    color: #ffffff00;
     font-size: 1rem;
     margin-top: 1rem;
     display: flex;
@@ -10,7 +10,7 @@
     z-index: 1200;
     transition: .3s;
     /*border-top: var(--style-border)*/
-    background: linear-gradient(208deg,#eefbed 0,#d9e2f5 11%,#f5dede 100%);
+    background: linear-gradient(208deg,#ecffeb 0,#cddaf6 11%,#bed8ff 100%);
 }
 
 
@@ -32,5 +32,5 @@
 }
 
 #footer-banner .footer-banner-right a:hover {
-    color: #ffffff
+    color: #ffffff00
 }
