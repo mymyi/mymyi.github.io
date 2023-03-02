@@ -304,6 +304,16 @@
 }
 }
 
+/*头图黑色透明玻璃效果移除 */
+#page-header.post-bg:before {
+  background-color: transparent!important;
+}
+
+/*伪类遮罩层透明*/
+#page-header::before{
+  background: transparent!important;
+}
+
 /*顶栏美化*/
 #nav .site-page {
   font-size: 1em; /*字体大小*/
