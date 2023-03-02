@@ -8,12 +8,31 @@
   overflow: hidden;
 }
 
-`/*文章页目录卡片圆角*/`
+  /*文章页卡片圆角*/
+.layout > div:first-child:not(.recent-posts) {
+  border-radius: 40px;
+}
+
+ /*文章页目录卡片圆角*/
 #aside-content .card-widget {
   border-radius: 20px;
   }
 
+ /*文章页卡片宽幅占比*/
+.layout {
+  max-width: 1230px;
+}
 
+/*首页文章卡片页面圆角*/
+#recent-posts > .recent-post-item {
+  height: 20em;
+  border-radius: 20px
+}
+
+/*文章相关推荐卡片美化*/
+.relatedPosts > .relatedPosts-list > div {
+  border-radius: 20px;
+}
 
 /* 版权信息 */
 /* 背景 */
@@ -200,11 +219,6 @@
   /*文章相关推荐卡片美化*/
 .relatedPosts > .relatedPosts-list > div {
   border-radius: 20px;
-}
-
-/*文章页卡片宽幅占比*/
-.layout {
-  max-width: 1280px;
 }
 
 /*文章页信息栏美化*/
@@ -886,4 +900,9 @@
 #footer-wrap {
   text-align: left;
   background-color: #c9e6feed;
+}
+
+/*隐藏文章描述*/
+#recent-posts > .recent-post-item >.recent-post-info > .content {
+  display: none;
 }
