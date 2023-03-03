@@ -1183,7 +1183,7 @@ display: inline-block;
 text-align: left;
 line-height: 4em;
 font-weight: bold;
-font-size: 1.3rem;
+font-size: 1.1rem;
 color: var(--bywind-white);
 transition: all 0.8s cubic-bezier(0.39, 0.575, 0.565, 1);
 transform: scale(1);
