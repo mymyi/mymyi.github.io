@@ -2,6 +2,11 @@
   background: rgb(248,252,252)
 }
 
+/*隐藏文章描述*/
+#recent-posts > .recent-post-item >.recent-post-info > .content {
+  display: none;
+}
+
 #he-plugin-standard{
     width:100%!important;
     margin-bottom:20px!important;
