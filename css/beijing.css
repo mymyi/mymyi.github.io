@@ -1029,7 +1029,7 @@
   align-items: flex-start;
   margin-left: .5rem;
   background: var(--bywind-card-bg);
-  border-radius: 12px;
+  border-radius: 15px;
   overflow: hidden;
   min-width: 200px;
   height: 164px;
@@ -1136,12 +1136,12 @@ span.recent-post-top-text {
 }
 
 .recent-post-top .recent-post-item .recent-post-info {
-  padding: .3rem .5rem .3rem .5rem!important;
+  padding: 1rem 2rem 2rem 1rem!important;
   transition: .3s
 }
 
 .recent-post-top .recent-post-item:hover .recent-post-info a {
-  color: var(--bywind-fontcolor)
+  color: #7dd2ba;
 }
 
 @media screen and (max-width: 1300px) {
@@ -1162,7 +1162,7 @@ span.recent-post-top-text {
   align-content: center;
   padding-top: .5rem;
   font-weight: 700;
-  font-size: .8rem!important;
+  font-size: 1.2rem!important;
   padding: 0!important
 }
 
@@ -1171,7 +1171,7 @@ overflow: hidden;
 transform: scale(1);
 transition: all 0.8s cubic-bezier(0.65, 0.15, 0.37, 1.19);
 height: 48%;
-border-radius: 12px;
+border-radius: 15px;
 }
 
 a.categoryButton {
@@ -1183,7 +1183,7 @@ display: inline-block;
 text-align: left;
 line-height: 4em;
 font-weight: bold;
-font-size: 0.9rem;
+font-size: 1.3rem;
 color: var(--bywind-white);
 transition: all 0.8s cubic-bezier(0.39, 0.575, 0.565, 1);
 transform: scale(1);
@@ -1203,11 +1203,11 @@ a.categoryButton:active {
 
 @media screen and (max-width: 768px) {
 a.categoryButton {
-  border-radius: 8px;
+  border-radius: 15px;
 }
 
 .categoryItem {
-  border-radius: 0px;
+  border-radius: 10px;
   height: 47%;
   box-shadow: none !important;
 }
@@ -1215,17 +1215,17 @@ a.categoryButton {
 
 a.categoryButton:after {
 top: 50px;
-width: 1rem;
+width: 5rem;
 left: 21px;
 height: 2px;
 background: var(--bywind-white);
 content: "";
-border-radius: 1px;
+border-radius: 5px;
 position: absolute;
 }
 
 .categoryButtonText {
-padding-left: 21px;
+padding-left: 28px;
 }
 
 a.categoryButton i {
@@ -1456,7 +1456,7 @@ div#banners:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #1a1a1a;
   font-size: 66px;
   font-weight: 700;
   box-shadow: var(--bywind-shadow-blackdeep)
