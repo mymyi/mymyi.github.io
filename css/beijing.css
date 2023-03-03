@@ -58,6 +58,30 @@
   border-radius: 20px;
 }
 
+/* 返回顶部 */
+
+button#go-up #percent {
+  display: none;
+  font-weight: bold;
+  font-size: 12px !important;
+}
+
+button#go-up span:nth-child(2) {
+  font-size: 12px!important;
+  margin-right: -1px;
+}
+
+
+/* 鼠标滑动到按钮上时显示返回顶部图标 */
+
+button#go-up:hover i {
+  display: block !important;
+}
+
+button#go-up:hover #percent {
+  display: none !important;
+}
+
 /* 版权信息 */
 /* 背景 */
 #post .post-copyright {
@@ -353,8 +377,8 @@
 #rightside > div > button, #rightside > div > a {
   display: block;
   margin-bottom: 6px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 25px;
   background-color: #f1f1f1;
   color: #2d587a;
