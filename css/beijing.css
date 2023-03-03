@@ -162,10 +162,7 @@
   text-align: center;
   color:rgb(241, 241, 241)
 }
-/* 隐藏信息文字 */
-#post-info #post-meta .post-meta-label {
-  display: none;
-}
+
 /* 图标数字间距 */
 #post-info #post-meta .post-meta-icon {
   margin-right: 0.3rem;
@@ -301,7 +298,7 @@
 
 /*信息栏高度调整*/
 #page-header.post-bg {
-  height: 22rem;
+  height: 19rem;
 }
 
 /*Web端信息栏适配*/
