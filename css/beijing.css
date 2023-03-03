@@ -125,7 +125,7 @@
 
 /* 文章标题 */
 #post-info .post-title {
-  color: var(white);
+  color: var(rgb(61, 61, 61));
   font-weight: 700;
   font-size: 2.6rem;
   line-height: 1.2;
@@ -160,7 +160,7 @@
 /* 文章顶部其他信息 */
 #post-meta>div {
   text-align: center;
-  color:white
+  color:rgb(61, 61, 61)
 }
 /* 隐藏信息文字 */
 #post-info #post-meta .post-meta-label {
@@ -172,7 +172,7 @@
 }
 /* 每组间距 */
 #post-info #post-meta .post-meta-separator {
-  margin: 0px 0.4rem;
+  margin: 2px 0.8rem;
 }
 
 /* 作者名 */
@@ -288,7 +288,7 @@
 
   /*文章相关推荐卡片美化*/
 .relatedPosts > .relatedPosts-list > div {
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 /*文章页信息栏美化*/
@@ -336,10 +336,10 @@
 }
 
 #nav {
-  height: 65px; /*顶栏高度调整*/
+  height: 50px; /*顶栏高度调整*/
 }
 #page-header.nav-fixed #nav {
-  top: -80px; /*顶栏调整空缺补齐*/
+  top: -150px; /*顶栏调整空缺补齐*/
 }
 
 /*右下角按钮*/
