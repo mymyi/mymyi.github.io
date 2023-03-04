@@ -1720,7 +1720,7 @@ a.categoryButton:hover {
 
 #archive,#tag,#category {
   background: var(--ichika-card-bg);
-  padding: 25px 10px;
+  padding: 10px 10px;
 }
 
 .article-sort-title{
@@ -1733,8 +1733,8 @@ a.categoryButton:hover {
 }
 
 .article-sort .year{
-  width:0%!important;
-  border-bottom:dashed 0px var(--ichika-color);
+  width:100%!important;
+  border-bottom:dashed 5px var(--ichika-color);
   font-size:0px;
   margin-top:0px;
 }
@@ -1748,14 +1748,14 @@ a.categoryButton:hover {
 }
 
 .article-sort-item:not(.year){
-  padding:0px 0px;
+  padding:5px 5px;
   width:calc(50% - 0.8rem);
   margin:0.4rem;
   border:2px solid var(--ichika-color);
   border-radius:15px;
   background:var(--card-bg);
   transition:0.5s;
-  height:50px;
+  height:120px;
 }
 
 .article-sort-item-a{
@@ -1775,10 +1775,10 @@ a.categoryButton:hover {
 }
 
 .article-sort-item-title {
-  font-size: 25px;
-  padding-left: 15px;
+  font-size: 22px;
+  padding-left: 10px;
   margin: 10px 0;
-  line-height:35px;
+  line-height:25px;
   text-overflow:ellipsis;
 }
 
@@ -1821,9 +1821,9 @@ a.categoryButton:hover {
 
 .article-sort-description {
   width: 0;
-  height: 50px;
+  height: 59px;
   vertical-align: middle;
-  margin: 0px 10px 0 10px;
+  margin: 5px 10px 0 15px;
   text-overflow:ellipsis;
 }
 
