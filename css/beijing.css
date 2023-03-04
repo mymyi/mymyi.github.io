@@ -96,7 +96,7 @@
 button#go-up #percent {
   display: none;
   font-weight: bold;
-  font-size: 12px !important;
+  font-size: 10px !important;
 }
 
 button#go-up span:nth-child(2) {
@@ -409,15 +409,15 @@ button#go-up:hover #percent {
 /*右下角按钮*/
 #rightside > div > button, #rightside > div > a {
   display: block;
-  margin-bottom: 6px;
-  width: 50px;
-  height: 50px;
+  margin-bottom: 8px;
+  width: 35px;
+  height: 35px;
   border-radius: 25px;
   background-color: #f1f1f1;
   color: #2d587a;
   text-align: center;
-  font-size: 16px;
-  line-height: 40px;
+  font-size: 12px;
+  line-height: 30px;
 }
 
 /*评论背景*/
@@ -1694,7 +1694,7 @@ a.categoryButton:hover {
 [data-theme="dark"] .parallax > use:nth-child(4) {
   animation-delay: -5s;
   animation-duration: 20s;
-  fill: #18171d;
+  fill: #91a2ff;
 }
 
 @keyframes move-forever {
