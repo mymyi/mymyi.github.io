@@ -1926,7 +1926,7 @@ a.categoryButton:hover {
 }
 
 .category-card-back {
-  background: linear-gradient(to top left, #f6dcff 0%, #b0aeff 100%) ;
+  background: linear-gradient(to top left, #9795ff 0%, #9ce3c9 100%) ;
   transform: rotateY(-180deg);
   transition: 0.5s;
 }
