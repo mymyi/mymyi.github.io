@@ -227,11 +227,11 @@ button#go-up:hover #percent {
 
 /* 图标数字间距 */
 #post-info #post-meta .post-meta-icon {
-  margin-right: 0.3rem;
+  margin-right: 0.4rem;
 }
 /* 每组间距 */
 #post-info #post-meta .post-meta-separator {
-  margin: 2px 0.8rem;
+  margin: 5px 1.2rem;
 }
 
 /* 作者名 */
