@@ -188,9 +188,9 @@ button#go-up:hover #percent {
 /* 文章标题 */
 #post-info .post-title {
   color: var(rgb(61, 61, 61));
-  font-weight: 700;
-  font-size: 2.6rem;
-  line-height: 1.2;
+  font-weight: 600;
+  font-size: 2.1rem;
+  line-height: 1.1;
   text-align: center;
   margin: 1rem 0 1rem 0 !important;
   -webkit-line-clamp: 2;
@@ -199,7 +199,7 @@ button#go-up:hover #percent {
 
 @media screen and (max-width: 768px) {
   #post-info .post-title {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     -webkit-line-clamp: 3;
     margin: 0.2rem auto !important;
     text-align: center;
