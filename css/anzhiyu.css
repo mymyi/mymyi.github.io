@@ -1,0 +1,200 @@
+/* 颜色 */
+:root {
+    --HiPeach-theme-op: #4259ef23;
+    --HiPeach-gray-op: #9999992b;
+    --HiPeach-theme-top: var(--HiPeach-theme);
+    --HiPeach-white: #fff;
+    --HiPeach-white-op: rgba(255, 255, 255, 0.2);
+    --HiPeach-black: #000;
+    --HiPeach-black-op: rgba(0, 0, 0, 0.2);
+    --HiPeach-none: rgba(0, 0, 0, 0);
+    --HiPeach-gray: #999999;
+    --HiPeach-yellow: #ffc93e;
+    --HiPeach-border-radius: 8px;
+    --HiPeach-main: var(--HiPeach-theme);
+    --HiPeach-main-op: var(--HiPeach-theme-op);
+    --HiPeach-shadow-theme: 0 8px 12px -3px var(--HiPeach-theme-op);
+    --HiPeach-shadow-main: 0 8px 12px -3px var(--HiPeach-main-op);
+    --HiPeach-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, 0.2);
+    --HiPeach-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, 0.2);
+    --HiPeach-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);
+    --HiPeach-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, 0.12);
+    --HiPeach-shadow-red: 0 8px 12px -3px #ee7d7936;
+    --HiPeach-shadow-green: 0 8px 12px -3px #87ee7936;
+    --HiPeach-shadow-border: 0 8px 16px -4px #2c2d300c;
+    --HiPeach-shadow-blackdeep: 0 2px 16px -3px rgba(0, 0, 0, 0.15);
+    --HiPeach-logo-color: linear-gradient(215deg, #4584ff 30%, #ff7676 70%);
+    --style-border: 1px solid var(--HiPeach-card-border);
+    --HiPeach-blue-main: #3b70fc;
+    --style-border-hover: 1px solid var(--HiPeach-main);
+    --style-border-dashed: 1px dashed var(--HiPeach-theme-op);
+    --style-border-avatar: 4px solid var(--HiPeach-background);
+    --style-border-always: 1px solid var(--HiPeach-card-border);
+    --HiPeach-white-acrylic1: #fefeff !important;
+    --HiPeach-white-acrylic2: #fcfdff !important;
+    --HiPeach-black-acrylic2: #08080a !important;
+    --HiPeach-black-acrylic1: #0b0b0e !important;
+    --HiPeach-main-none: #b8b8b800 !important;
+  }
+  
+  [data-theme="light"] {
+    --HiPeach-theme: #3b70fc;
+    --HiPeach-theme-op: #4259ef23;
+    --HiPeach-blue: #3b70fc;
+    --HiPeach-red: #d8213c;
+    --HiPeach-pink: #ff7c7c;
+    --HiPeach-green: #57bd6a;
+    --HiPeach-fontcolor: #363636;
+    --HiPeach-background: #f7f9fe;
+    --HiPeach-reverse: #000;
+    --HiPeach-maskbg: rgba(255, 255, 255, 0.6);
+    --HiPeach-maskbgdeep: rgba(255, 255, 255, 0.85);
+    --HiPeach-hovertext: var(--HiPeach-theme);
+    --HiPeach-ahoverbg: #f7f7fa;
+    --HiPeach-lighttext: var(--HiPeach-main);
+    --HiPeach-secondtext: rgba(60, 60, 67, 0.6);
+    --HiPeach-scrollbar: rgba(60, 60, 67, 0.4);
+    --HiPeach-card-btn-bg: #edf0f7;
+    --HiPeach-post-blockquote-bg: #fafcff;
+    --HiPeach-post-tabs-bg: #f2f5f8;
+    --HiPeach-secondbg: #edf0f7;
+    --HiPeach-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
+    --HiPeach-card-bg: #fff;
+    --HiPeach-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --HiPeach-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --HiPeach-card-border: #c0c6d8;
+  }
+  
+  [data-theme="dark"] {
+    --global-bg: #191919;
+    --HiPeach-theme: #0084ff;
+    --HiPeach-theme-op: #0084ff23;
+    --HiPeach-blue: #0084ff;
+    --HiPeach-red: #ff3842;
+    --HiPeach-pink: #ff7c7c;
+    --HiPeach-green: #57bd6a;
+    --HiPeach-fontcolor: #f7f7fa;
+    --HiPeach-background: #18171d;
+    --HiPeach-reverse: #fff;
+    --HiPeach-maskbg: rgba(0, 0, 0, 0.6);
+    --HiPeach-maskbgdeep: rgba(0, 0, 0, 0.85);
+    --HiPeach-hovertext: #0a84ff;
+    --HiPeach-ahoverbg: #fff;
+    --HiPeach-lighttext: #f2b94b;
+    --HiPeach-secondtext: #a1a2b8;
+    --HiPeach-scrollbar: rgba(200, 200, 223, 0.4);
+    --HiPeach-card-btn-bg: #30343f;
+    --HiPeach-post-blockquote-bg: #000;
+    --HiPeach-post-tabs-bg: #121212;
+    --HiPeach-secondbg: #30343f;
+    --HiPeach-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
+    --HiPeach-card-bg: #1d1b26;
+    --HiPeach-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --HiPeach-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --HiPeach-card-border: #42444a;
+  }
+
+
+  .hello-about {
+    margin: 20px auto;
+    border-radius: 24px;
+    background: var(--anzhiyu-card-bg);
+    border: var(--style-border-always);
+    box-shadow: var(--anzhiyu-shadow-border);
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+  }
+  
+  .shapes {
+    position: relative;
+    height: 315px;
+    width: 100%;
+    background: #2128bd;
+    overflow: hidden;
+  }
+  
+  .shape {
+    will-change: transform;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .shape.shape-1 {
+    background: #005ffe;
+    width: 650px;
+    height: 650px;
+    margin: -325px 0 0 -325px;
+  }
+  
+  .shape.shape-2 {
+    background: #ffe5e3;
+    width: 440px;
+    height: 440px;
+    margin: -220px 0 0 -220px;
+  }
+  
+  .shape.shape-3 {
+    background: #ffcc57;
+    width: 270px;
+    height: 270px;
+    margin: -135px 0 0 -135px;
+  }
+  
+  .hello-about .content {
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 315px;
+    width: 100%;
+    background: #fff;
+    mix-blend-mode: screen;
+  }
+  [data-theme="dark"] .hello-about .content {
+    background: transparent;
+  }
+  [data-theme="dark"] .hello-about h1 {
+    color: var(--anzhiyu-white);
+  }
+  
+  .hello-about h1 {
+    font-size: 200px;
+    color: #000;
+    margin: 0;
+    text-align: center;
+    font: inherit;
+    vertical-align: baseline;
+    line-height: 1;
+    font-size: calc((0.0989119683 * 100vw + (58.5558852621px)));
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (min-width: 419px) {
+    .hello-about h1 {
+      font-size: calc((0.0989119683 * 100vw + (58.5558852621px)));
+    }
+  }
+  
+  .cursor {
+    position: absolute;
+    background: #2128bd;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border-radius: 50%;
+    will-change: transform;
+    user-select: none;
+    pointer-events: none;
+    z-index: 3;
+  }
+  
+  ::selection {
+    color: #fff;
+    background: #2128bd;
+  }
