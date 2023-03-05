@@ -2227,25 +2227,4 @@ a.categoryButton:hover {
   transform: translate(-50%, -48px);
 }
 
-#recent-posts>.recent-post-item {
-  position: relative;
-}
 
-/* 最新文章图标 */
-.newPost-left,
-.newPost-right {
-  position: absolute;
-  top: 0;
-  color: rgb(153, 224, 180);
-  padding: 0 15px;
-  background-color: #afc3ff;
-  border-radius: 0 0 10px 10px;
-}
-
-.newPost-left {
-  left: 15px;
-}
-
-.newPost-right {
-  right: 15px;
-}

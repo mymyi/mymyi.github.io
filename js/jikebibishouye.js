@@ -270,5 +270,5 @@ function owoBig() {
 function share() {
   let url = window.location.origin + window.location.pathname
   new ClipboardJS(".share", { text: function() { return '标题：' + document.title + '\n链接：' + url } });
-  btf.snackbarShow("已复制本页链接！快粘贴分享给朋友吧~")
+  btf.snackbarShow("已复制本页链接！")
 }
