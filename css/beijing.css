@@ -35,24 +35,6 @@
   }
 }
 
-/*隐藏文章描述*/
-#recent-posts > .recent-post-item >.recent-post-info > .content {
-  display: none;
-}
-
-#he-plugin-standard{
-    width:100%!important;
-    margin-bottom:20px!important;
-}
-.wv-lt-location>a[data-v-4b9dcab4],.wv-lt-location>span[data-v-4b9dcab4],.wv-n-h-now-tmp>span[data-v-5f4c0628],.wv-n-h-now-txt>span[data-v-5f4c0628],.wv-n-h-now-rain>a[data-v-5f4c0628], .wv-n-h-now-rain>span[data-v-5f4c0628],.wv-f-forecast-date>a[data-v-66693262],.wv-f-a{
-    color:var(--font-color)!important;
-    font-family: 'HYTMR','Microsoft Yahei','PingFang SC','SimSun'!important;
-    font-size:14px
-}
-.wv-n-h-now-aqi-item {
-    display: none;
-}
-
 
 /*GitHub开源圆角*/
 #card-info-btn {
@@ -353,8 +335,8 @@ button#go-up:hover #percent {
 /*文章页信息栏美化*/
 #post-info .post-title {
   font-weight: 600; /*字体粗细*/
-  font-size: 2.8em; /*字体大小*/
-  line-height: 1.6; /*元素高度*/
+  font-size: 2.5em; /*字体大小*/
+  line-height: 3; /*元素高度*/
   letter-spacing: 13px; /*字体间距*/
 }
 
@@ -365,7 +347,7 @@ button#go-up:hover #percent {
 
 /*信息栏高度调整*/
 #page-header.post-bg {
-  height: 19rem;
+  height: 17.5rem;
 }
 
 /*Web端信息栏适配*/

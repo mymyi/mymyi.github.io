@@ -4635,7 +4635,7 @@ span.mathjax-overflow {
   left: 0;
   top: 0;
   padding: 20px;
-  background: #eeb8c3;
+  background: #ebebff;
 }
 .card_box .card_mask span {
   display: block;
@@ -4644,7 +4644,7 @@ span.mathjax-overflow {
 }
 .card_box .card_mask a {
   text-align: center;
-  background: #e5e4e4;
+  background: #f2f2f2;
   color: #161823 !important;
   border-radius: 8px;
   position: absolute;
