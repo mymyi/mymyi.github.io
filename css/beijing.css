@@ -78,7 +78,7 @@
 button#go-up #percent {
   display: none;
   font-weight: bold;
-  font-size: 10px !important;
+  font-size: 9px !important;
 }
 
 button#go-up span:nth-child(2) {
@@ -170,9 +170,9 @@ button#go-up:hover #percent {
 /* 文章标题 */
 #post-info .post-title {
   color: var(rgb(61, 61, 61));
-  font-weight: 600;
-  font-size: 2.1rem;
-  line-height: 1.1;
+  font-weight: 610;
+  font-size: 1.9rem;
+  line-height: 0.8;
   text-align: center;
   margin: 1rem 0 1rem 0 !important;
   -webkit-line-clamp: 2;
@@ -181,8 +181,8 @@ button#go-up:hover #percent {
 
 @media screen and (max-width: 768px) {
   #post-info .post-title {
-    font-size: 1.5rem;
-    -webkit-line-clamp: 3;
+    font-size: 1.2rem;
+    -webkit-line-clamp: 1;
     margin: 0.2rem auto !important;
     text-align: center;
     z-index: 1;
@@ -350,7 +350,7 @@ button#go-up:hover #percent {
 #post-info .post-title {
   font-weight: 600; /*字体粗细*/
   font-size: 2.5em; /*字体大小*/
-  line-height: 3; /*元素高度*/
+  line-height: 2; /*元素高度*/
   letter-spacing: 13px; /*字体间距*/
 }
 
@@ -378,10 +378,6 @@ button#go-up:hover #percent {
 }
 }
 
-/*头图黑色透明玻璃效果移除 */
-#page-header.post-bg:before {
-  background-color: transparent!important;
-}
 
 /*伪类遮罩层透明*/
 #page-header::before{
@@ -1690,7 +1686,7 @@ a.categoryButton:hover {
 [data-theme="dark"] .parallax > use:nth-child(4) {
   animation-delay: -5s;
   animation-duration: 20s;
-  fill: #91a2ff;
+  fill: #2a2a2a;
 }
 
 @keyframes move-forever {
