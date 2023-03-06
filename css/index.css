@@ -6132,11 +6132,11 @@ blockquote.pullquote.right {
 }
 
 .author-content {
-  display: flex;
+  display: space-between;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 100%;
-  margin-top: 1rem;
+  width: 95%;
+  margin-top: 3rem;
 }
 
 #about-page .myInfoAndSayHello {
