@@ -1664,7 +1664,7 @@ a.categoryButton:hover {
 .parallax > use:nth-child(3) {
   animation-delay: -4s;
   animation-duration: 13s;
-  fill: #f7f9fe36;
+  fill: #c1c2c5;
 }
 .parallax > use:nth-child(4) {
   animation-delay: -5s;
