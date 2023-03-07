@@ -1633,7 +1633,6 @@ a.categoryButton:hover {
   width: 100%;
 }
 
-/* 文章页顶部波浪特效 */
 /* 波浪css */
 .main-hero-waves-area {
   width: 100%;
@@ -1664,7 +1663,7 @@ a.categoryButton:hover {
 .parallax > use:nth-child(3) {
   animation-delay: -4s;
   animation-duration: 13s;
-  fill: #c1c2c5;
+  fill: #f7f9fe36;
 }
 .parallax > use:nth-child(4) {
   animation-delay: -5s;
@@ -1690,7 +1689,7 @@ a.categoryButton:hover {
 [data-theme="dark"] .parallax > use:nth-child(4) {
   animation-delay: -5s;
   animation-duration: 20s;
-  fill: #2a2a2a;
+  fill: #18171d;
 }
 
 @keyframes move-forever {
