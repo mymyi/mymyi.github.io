@@ -518,7 +518,7 @@ button#go-up:hover #percent {
 }
 
 .loading-img {
-  background: url(https://s1.ax1x.com/2023/02/26/pp9J1DH.jpg) no-repeat center center;
+  background: url('/img/avatar.jpg') no-repeat center center;
   background-size: cover;
 }
 
