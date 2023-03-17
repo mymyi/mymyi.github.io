@@ -232,7 +232,7 @@ button#go-up:hover #percent {
 }
 /* 每组间距 */
 #post-info #post-meta .post-meta-separator {
-  margin: 5px 1.2rem;
+  margin: 5px 0.8rem;
 }
 
 /* 作者名 */
