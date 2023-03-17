@@ -2,6 +2,11 @@
   background: #F7F9FE
 }
 
+/* 上下一篇文章 */
+#pagination.pagination-post {
+  height: 0px;
+}
+
 #owo-big {
   position: fixed;
   align-items: center;
@@ -218,7 +223,7 @@ button#go-up:hover #percent {
 /* 文章顶部其他信息 */
 #post-meta>div {
   text-align: center;
-  color:rgb(241, 241, 241)
+  color:rgb(125, 125, 125)
 }
 
 /* 图标数字间距 */
